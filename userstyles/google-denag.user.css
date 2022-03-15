@@ -1,0 +1,11 @@
+@-moz-document domain("google.com") {
+
+    body>div[aria-modal="true"] {
+        display: none !important;
+    }
+
+    body {
+        overflow: scroll !important;
+    }
+
+}

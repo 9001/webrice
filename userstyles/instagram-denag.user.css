@@ -1,0 +1,7 @@
+@-moz-document domain("instagram.com") {
+
+    body>div[role="presentation"] {
+        display: none !important;
+    }
+
+}

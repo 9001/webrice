@@ -1,0 +1,23 @@
+@-moz-document domain("imgur.com") {
+
+    div.post-header.fixed {
+        display: none;
+    }
+
+    div.right {
+        display: none;
+    }
+
+    div.left {
+        float: none;
+    }
+
+    div#inside {
+        width: auto;
+    }
+
+    .post-container {
+        margin: 0 auto;
+    }
+
+}

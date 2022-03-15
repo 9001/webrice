@@ -1,0 +1,21 @@
+/*
+%appdata%\mozilla\firefox\profiles
+
+f12 -> settings ->
+ [x] enable browser chrome and add-on debugging toolboxes
+ [x] enable remote debugging
+
+[=] -> more tools -> browser toolbox
+*/
+
+#TabsToolbar>* {
+    margin: -1px 0 -8px 0 !important
+}
+
+#nav-bar-customization-target>* {
+    margin: -1px 0 !important
+}
+
+.tab-background {
+    max-height: 0 !important
+}

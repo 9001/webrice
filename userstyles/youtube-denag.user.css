@@ -1,0 +1,8 @@
+@-moz-document domain("youtube.com") {
+
+    tp-yt-iron-overlay-backdrop,
+    ytd-consent-bump-v2-lightbox {
+        display: none;
+    }
+
+}

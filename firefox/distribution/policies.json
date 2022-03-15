@@ -1,0 +1,9 @@
+{
+    "policies": {
+        "DisableFirefoxAccounts": true,
+        "DisableFirefoxStudies": true,
+        "DisablePocket": true,
+        "DisableTelemetry": true,
+        "DisableFeedbackCommands": true
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "policies": {
+        "DisableFirefoxAccounts": true,
+        "DisableFirefoxStudies": true,
+        "DisablePocket": true,
+        "DisableTelemetry": true,
+        "DisableFeedbackCommands": true,
+        "SearchSuggestEnabled": false,
+        "CaptivePortal": false,
+        "AppAutoUpdate": false,
+        "DisableAppUpdate": true,
+        "ManualAppUpdateOnly": true,
+        "PopupBlocking": {
+            "Default": false
+        }
+    }
+}
