@@ -26,6 +26,11 @@
             document.querySelector('a[data-testid="login"]').parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.style.display = 'none';
         },
 
+        // cookies banner
+        function () {
+            for (var a of document.querySelectorAll('div[data-testid="BottomBar"]>div>div>div+div>div>span>span')) if (a.innerText == 'Refuse non-essential cookies') a.click();
+        },
+
         // yes.png
         function () {
             for (var o of document.querySelectorAll('div[role="button"]'))
