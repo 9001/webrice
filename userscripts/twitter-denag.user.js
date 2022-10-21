@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         twitter-denag
-// @version      2022.2.16.0
+// @version      2022.10.21.0
 // @description  denag twitter
 // @namespace    https://ocv.me/
 // @match        https://twitter.com/*
@@ -35,6 +35,21 @@
         function () {
             for (var o of document.querySelectorAll('div[role="button"]'))
                 try { if (o.parentNode.previousSibling.querySelector('div[dir="auto"]').textContent.indexOf('The following media includes') + 1) o.click(); } catch { }
+        },
+
+        // no t.co
+        function () {
+            for (var lnk of document.querySelectorAll('a[target="_blank"]')) {
+                if (!lnk.querySelector('span[aria-hidden="true"]')) continue;
+
+                var href = lnk.innerText;
+                if (href.endsWith('…'))
+                    href = href.slice(0, -1);
+
+                console.log('undumb:href', href);
+                lnk.textContent = href;
+                lnk.setAttribute('href', href);
+            }
         }
     ];
 
