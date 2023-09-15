@@ -1,0 +1,43 @@
+@-moz-document url("https://github.com/") {
+
+    .js-feed-item-component,
+    .feed-item-content {
+        margin: -1px !important;
+        padding: 0 !important;
+    }
+
+    .feed-item-content div.py-1>div.mt-1.mb-1 section[aria-label="card content"] div.flex-1>div:nth-child(1) {
+        position: relative;
+        left: 50%;
+        top: -3em;
+        margin: -.8em;
+    }
+
+    .feed-item-content div.py-1>div.mt-1.mb-1 section[aria-label="card content"] div.flex-1>div:nth-child(2) {
+        height: 1.3em;
+        margin-top: -2em;
+        overflow: hidden;
+        opacity: .5;
+    }
+
+    .feed-item-content div.py-1>div.mt-1.mb-1 section[aria-label="card content"] div.flex-1>div:nth-child(3) {
+        position: relative;
+        left: 90%;
+        top: -4em;
+        margin: -.8em
+    }
+
+    .feed-item-content section>.p-3 {
+        padding: 0 0 0 .7em !important;
+        background: none !important;
+    }
+
+    .feed-item-content section>.p-3 {
+        padding: 0 0 0 .7em !important;
+        background: none !important;
+    }
+
+    .feed-item-content section .flex-self-start.ml-1 {
+        margin: -1em !important
+    }
+}
