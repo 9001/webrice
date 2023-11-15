@@ -1,0 +1,12 @@
+@-moz-document domain("discord.com") {
+
+    /* why are there animated UFOs covering the message text */
+    div[class^="effectsWrapper_"] {
+        display: none !important;
+    }
+
+    /* more super-reactions crap */
+    div[class^="reaction_"] {
+        animation: none !important;
+    }
+}
